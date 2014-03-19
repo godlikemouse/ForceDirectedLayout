@@ -9,7 +9,7 @@ A simple C++ based force directed layout system for performing command line layo
 
 ## Usage
 
-Usage: fdl [OPTION]... --in=[INPUT-FILE] --out=[OUTPUT-FILE]
+`Usage: fdl [OPTION]... --in=[INPUT-FILE] --out=[OUTPUT-FILE]
 
 Options:
 	 --in-type=TYPE		Specifies the input file type, default JSON (JSON, GraphML).
@@ -17,7 +17,7 @@ Options:
 	 --in=FILE		Specifies the input file.
 	 --out=FILE		Specifies the output file.
 	 --mode=MODE		Specifies the detangle mode, default 2D (2D, 3D).
-	 --help			Displays this help message.
+	 --help			Displays this help message.`
 
 ## Quick Start
 
