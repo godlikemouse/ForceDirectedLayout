@@ -5,29 +5,29 @@ A simple C++ based force directed layout system for performing command line layo
 
 ## Building
 
-`autoreconf --install && ./configure && make`
+	autoreconf --install && ./configure && make
 
 ## Usage
 
-`Usage: fdl [OPTION]... --in=[INPUT-FILE] --out=[OUTPUT-FILE]
+    Usage: fdl [OPTION]... --in=[INPUT-FILE] --out=[OUTPUT-FILE]
 
-Options:
-	 --in-type=TYPE		Specifies the input file type, default JSON (JSON, GraphML).
-	 --out-type=TYPE	Specifies the output file type, default JSON (JSON, GraphML).
-	 --in=FILE		Specifies the input file.
-	 --out=FILE		Specifies the output file.
-	 --mode=MODE		Specifies the detangle mode, default 2D (2D, 3D).
-	 --help			Displays this help message.`
+    Options:
+         --in-type=TYPE         Specifies the input file type, default JSON (JSON, GraphML).
+         --out-type=TYPE        Specifies the output file type, default JSON (JSON, GraphML).
+         --in=FILE              Specifies the input file.
+         --out=FILE             Specifies the output file.
+         --mode=MODE            Specifies the detangle mode, default 2D (2D, 3D).
+         --help                 Displays this help message.
 
 ## Quick Start
 
 Read in JSON file, output to GraphML file.
 
-`./fdl --in-type=JSON --in=data/layout.json --out-type=GraphML --out=output.xml`
+	./fdl --in-type=JSON --in=data/layout.json --out-type=GraphML --out=output.xml
 
 Read in GraphML file, output JSON to stdout.
 
-`./fdl --in-type=GraphML --in=data/layout.xml --out-type=JSON`
+	./fdl --in-type=GraphML --in=data/layout.xml --out-type=JSON
 
 ## Data Formats
 
@@ -42,7 +42,7 @@ ForceDirectedLayout currently supports JSON and GraphML.  Example data input fil
 Keep track of development and community news.
 
 * Follow [@Collaboradev on Twitter](https://twitter.com/collaboradev).
-* Follow [Collaboradev Blog](http://www.collaboradev.com).
+* Follow the [Collaboradev Blog](http://www.collaboradev.com).
 
 ## License
 
