@@ -1,11 +1,23 @@
 ForceDirectedLayout
 ===================
 
-A simple C++ based force directed layout system for performing command line layouts of nodes and edges.  Supports JSON and GraphML supported input and output.  Supports additional attributes and parameters in both JSON and GraphML.
+A simple C++ based force directed layout system for performing command line layouts of nodes and edges in both 2D and 3D.  Supports JSON and GraphML supported input and output.  Supports additional attributes and parameters in both JSON and GraphML.
 
 ## Building
 
 `autoreconf --install && ./configure && make`
+
+## Usage
+
+Usage: fdl [OPTION]... --in=[INPUT-FILE] --out=[OUTPUT-FILE]
+
+Options:
+	 --in-type=TYPE		Specifies the input file type, default JSON (JSON, GraphML).
+	 --out-type=TYPE	Specifies the output file type, default JSON (JSON, GraphML).
+	 --in=FILE		Specifies the input file.
+	 --out=FILE		Specifies the output file.
+	 --mode=MODE		Specifies the detangle mode, default 2D (2D, 3D).
+	 --help			Displays this help message.
 
 ## Quick Start
 
@@ -30,6 +42,7 @@ ForceDirectedLayout currently supports JSON and GraphML.  Example data input fil
 Keep track of development and community news.
 
 * Follow [@Collaboradev on Twitter](https://twitter.com/collaboradev).
+* Follow [Collaboradev Blog](http://www.collaboradev.com).
 
 ## License
 
