@@ -1,0 +1,51 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+	    "color": "red"
+        },
+        {
+            "id": "node_2",
+	    "color": "red"
+        },
+        {
+            "id": "node_3",
+	    "color": "red"
+        },
+        {
+            "id": "node_4",
+	    "color": "red"
+        },
+        {
+            "id": "node_5",
+	    "color": "red"
+        }
+    ],
+    "edges": [
+        {
+            "source": "node_1",
+            "target": "node_2",
+            "id": "link_0"
+        },
+        {
+            "source": "node_2",
+            "target": "node_3",
+            "id": "link_1"
+        },
+        {
+            "source": "node_3",
+            "target": "node_4",
+            "id": "link_2"
+        },
+        {
+            "source": "node_4",
+            "target": "node_5",
+            "id": "link_3"
+        },
+        {
+            "source": "node_5",
+            "target": "node_1",
+            "id": "link_4"
+        }
+    ]
+}
