@@ -29,6 +29,8 @@ Read in GraphML file, output JSON to stdout.
 
 	./fdl --in-type=GraphML --in=data/layout.xml --out-type=JSON
 
+Output file will contain modified nodes with x,y,z values.
+
 ## Data Formats
 
 ForceDirectedLayout currently supports JSON and GraphML.  Example data input files are available under the [data](https://github.com/godlikemouse/ForceDirectedLayout/tree/master/data) directory.
