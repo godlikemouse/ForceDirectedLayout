@@ -12,3 +12,5 @@
 /missing
 /stamp-h?
 /src/.deps/
+/src/ext/.deps/
+/src/json/.deps/
