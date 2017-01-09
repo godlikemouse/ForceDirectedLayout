@@ -25,6 +25,7 @@
 #include <fstream>
 #include <sstream>
 #include <vector>
+#include <string.h>
 
 #include "ext/json/json.h"
 #include "ext/xml/rapidxml.h"

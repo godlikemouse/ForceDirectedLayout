@@ -76,7 +76,7 @@ string& FileHandler::error(){
 // @return bool
 bool FileHandler::parse_json(vector<Node>& nodes, vector<Edge>& edges){
 
-	ifstream file(filename_);
+	ifstream file(filename_.data());
 	string json_text;
 	string line;
 
@@ -188,7 +188,7 @@ bool FileHandler::parse_json(vector<Node>& nodes, vector<Edge>& edges){
 // @return bool
 bool FileHandler::parse_graphml(vector<Node>& nodes, vector<Edge>& edges){
 
-	ifstream file(filename_);
+	ifstream file(filename_.data());
 	string xml_text;
 	string line;
 
@@ -349,7 +349,7 @@ bool FileHandler::write_json(vector<Node>& nodes, vector<Edge>& edges){
 	}
 	else{
 		//write out to file
-		ofstream file(filename_);
+		ofstream file(filename_.data());
 		file.write(json_text.c_str(), json_text.size());
 		file.close();
 	}
@@ -426,7 +426,7 @@ bool FileHandler::write_graphml(vector<Node>& nodes, vector<Edge>& edges){
 	}
 	else{
 		//write out to file
-		ofstream file(filename_);
+		ofstream file(filename_.data());
 		std::string xml_text = stream.str();
 
 		file.write(xml_text.c_str(), xml_text.size());
